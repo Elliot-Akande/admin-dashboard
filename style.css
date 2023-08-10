@@ -1,8 +1,211 @@
-@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("normalize.css");
 
 :root {
     --color-primary: #0ea5e9;
     --color-secondary: #eab308;
     --color-white: white;
-    --color-background: #cbd5e1;
+    --color-background: #e2e8f0;
+    --color-text-primary: #18181b;
+    --color-text-secondary: #6b7280;
+    --color-separator: #d1d5db;
+
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text-primary);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: min-content;
+}
+
+header {
+    display: grid;
+    padding: 20px 40px;
+    gap: 30px;
+}
+
+header *{
+    margin: 0;
+}
+
+header > .top {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+header > .top > .left {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+header > .top > .right {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+}
+
+header > .bottom {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+header > .bottom > .left {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    align-items: center;
+}
+
+header > .bottom > .right {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+}
+
+header > .bottom > .left > h2{
+    background-color: var(--color-secondary);
+    height: 100%;
+}
+
+header input[type='search'] {
+    width: clamp(300px, 40vw, 700px);
+}
+
+nav {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    grid-row: 1 / 3;
+
+    padding: 0 20px;
+}
+
+nav * {
+    color: var(--color-white);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+}
+
+main {
+    background-color: var(--color-background);
+    padding: 30px 20px;
+    box-shadow: inset 0 3px 6px 0px rgb(0 0 0 / 15%);
+
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+}
+
+main * {
+    margin: 0;
+}
+
+.card {
+    background-color: var(--color-white);
+    box-shadow: 5px 7px 6px 0px rgb(0 0 0 / 15%);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.projects-container {
+    grid-row: 1 / 3;
+}
+
+.projects-container > h3,
+.announcements-container > h3, 
+.trending-container > h3 {
+    margin-bottom: 10px;
+}
+
+.projects-container > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    padding: 30px;
+    border-radius: 8px;
+    border-left: solid var(--color-secondary) 7px;
+    height: 200px;
+
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+.project-card > p {
+    margin-top: 5px;
+    color: var(--color-text-secondary)
+}
+
+.card-buttons {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.announcement {
+    padding: 15px 0;
+    border-bottom: solid var(--color-separator) 1px;
+}
+
+.announcement:first-of-type {
+    padding-top: 0;
+}
+
+.announcement:last-of-type {
+    padding-bottom: 0;
+    border: none
+}
+
+.announcement > p {
+    color: var(--color-text-secondary);
+    font-size: small;
+}
+
+.trending-container {
+    margin-top: 40px;
+}
+
+.trending-project {
+    padding-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.trending-project:last-of-type {
+    padding-bottom: 0;
+}
+
+.trending-project > h3 {
+    grid-row: 1 / 3;
+}
+
+.trending-project > p {
+    color: var(--color-text-secondary)
 }
