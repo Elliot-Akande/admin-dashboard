@@ -14,6 +14,11 @@
     color: var(--color-text-primary);
 }
 
+img {
+    border-radius: 50px;
+    height: 45px;
+}
+
 html,
 body {
     height: 100%;
@@ -101,9 +106,8 @@ header>.bottom>.right {
     gap: 20px;
 }
 
-header>.bottom>.left>h2 {
-    background-color: var(--color-secondary);
-    height: 100%;
+header>.bottom>.left>img {
+    height: 70px;
 }
 
 header>.bottom button {
@@ -181,12 +185,12 @@ nav li>h2 {
 
 main {
     background-color: var(--color-background);
-    padding: 30px 20px;
+    padding: 30px 25px;
     box-shadow: inset 0 3px 6px 0px rgb(0 0 0 / 15%);
 
     display: grid;
     grid-template-columns: 1fr 300px;
-    gap: 20px;
+    gap: 25px;
 }
 
 main * {
@@ -213,7 +217,7 @@ main * {
 .projects-container>div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 20px;
+    gap: 25px;
 }
 
 .project-card {
@@ -284,8 +288,13 @@ main * {
     padding-bottom: 0;
 }
 
-.trending-project>h3 {
+.trending-project>img {
     grid-row: 1 / 3;
+    height: 50px;
+}
+
+.trending-project>h5 {
+    font-size: 90%;
 }
 
 .trending-project>p {
