@@ -210,6 +210,16 @@ main * {
     justify-self: flex-end;
 }
 
+.card-buttons button{
+    background: none;
+    border: none;
+}
+
+.card-buttons svg {
+    fill: var(--color-text-primary);
+    width: 1.5rem;
+}
+
 .announcement {
     padding: 15px 0;
     border-bottom: solid var(--color-separator) 1px;
