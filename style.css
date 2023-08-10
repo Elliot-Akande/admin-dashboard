@@ -82,6 +82,16 @@ header > .bottom > .left > h2{
     height: 100%;
 }
 
+header > .bottom button{
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    width: 120px;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
 header input[type='search'] {
     width: clamp(300px, 40vw, 700px);
 }
