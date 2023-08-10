@@ -195,6 +195,7 @@ main * {
     border-radius: 8px;
     border-left: solid var(--color-secondary) 7px;
     height: 200px;
+    padding-bottom: 20px;
 
     display: grid;
     grid-template-rows: auto auto 1fr;
@@ -213,6 +214,7 @@ main * {
 .card-buttons button{
     background: none;
     border: none;
+    margin-left: 14px;
 }
 
 .card-buttons svg {
