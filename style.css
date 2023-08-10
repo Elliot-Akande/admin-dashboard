@@ -98,7 +98,7 @@ header>.bottom>.left {
 header>.bottom>.right {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 15px;
+    gap: 20px;
 }
 
 header>.bottom>.left>h2 {
@@ -109,11 +109,12 @@ header>.bottom>.left>h2 {
 header>.bottom button {
     color: var(--color-white);
     background-color: var(--color-primary);
-    width: 120px;
+    width: 100px;
     padding: 10px 20px;
     border-style: none;
-    border-radius: 20px;
+    border-radius: 40px;
     font-weight: bold;
+    font-size: 90%;
 }
 
 header input[type='search'] {
