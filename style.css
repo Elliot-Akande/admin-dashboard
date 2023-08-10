@@ -300,3 +300,13 @@ main * {
 .trending-project>p {
     color: var(--color-text-secondary)
 }
+
+footer {
+    text-align: center;
+    font-size: 110%;
+    margin-top: 30px;
+}
+
+footer p {
+    color: var(--color-text-secondary);
+}
