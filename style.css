@@ -195,6 +195,7 @@ nav li:first-of-type {
     grid-template-columns: auto 1fr;
     gap: 14px;
     align-items: center;
+    border-radius: 0;
 }
 
 nav li>button:hover {
@@ -203,7 +204,7 @@ nav li>button:hover {
 }
 
 nav li>button:active {
-    transform: scale(0.95);
+    transform: scale(0.97);
 }
 
 nav li svg {
@@ -318,17 +319,28 @@ main * {
     margin-top: 40px;
 }
 
+.trending-card {
+    padding-inline: 22px;
+}
+
 .trending-project {
-    padding-bottom: 20px;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
 
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 15px;
     align-items: center;
+    justify-items: start;
+}
+
+.trending-project:active {
+    transform: scale(0.97);
 }
 
 .trending-project:last-of-type {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .trending-project>img {
@@ -338,10 +350,11 @@ main * {
 
 .trending-project>h5 {
     font-size: 90%;
+    align-self: flex-end;
 }
 
 .trending-project>p {
-    color: var(--color-text-secondary)
+    color: var(--color-text-secondary);
 }
 
 footer {
