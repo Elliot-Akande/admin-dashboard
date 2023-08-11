@@ -219,11 +219,11 @@ nav>ul>li:first-of-type svg {
 }
 
 nav>ul>li:not(:first-of-type) {
-    margin-left: 14px;
+    margin-left: 5px;
 }
 
 nav li h2 {
-    margin: 13px 10px;
+    margin: 10px 10px;
     font-size: 1.4em;
 }
 
