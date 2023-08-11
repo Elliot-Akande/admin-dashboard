@@ -10,6 +10,8 @@ Through the Admin Dashboard project, I've not only honed my technical skills but
 
 Explore the Admin Dashboard, where CSS Grid meets responsive design elegance. Your feedback and suggestions are warmly welcomed!
 
+[Live Demo](https://elliot-akande.github.io/admin-dashboard/) :point_left:
+
 ### Images Used
 
 - Dog image by [Charles Deluvio](https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/Mv9hjnEUHR4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
