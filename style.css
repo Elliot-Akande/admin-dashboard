@@ -295,6 +295,11 @@ main * {
     width: 1.6rem;
 }
 
+.card-buttons button:nth-child(3) svg {
+    position: relative;
+    top: 1px;
+}
+
 .announcement {
     padding: 16px 0;
     border-bottom: solid var(--color-separator) 1px;
