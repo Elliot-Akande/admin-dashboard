@@ -295,7 +295,7 @@ main * {
 }
 
 .announcement {
-    padding: 15px 0;
+    padding: 16px 0;
     border-bottom: solid var(--color-separator) 1px;
 }
 
@@ -311,6 +311,7 @@ main * {
 .announcement>p {
     color: var(--color-text-secondary);
     font-size: small;
+    margin-top: 2px;
 }
 
 .trending-container {
