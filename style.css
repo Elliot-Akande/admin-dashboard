@@ -29,6 +29,7 @@ img {
 button {
     transition: 0.1s;
     background: none;
+    border: none;
     padding: 5px 8px;
 }
 
@@ -188,20 +189,30 @@ nav li:nth-child(7) {
     margin-bottom: 50px;
 }
 
-nav li {
+nav li>button,
+nav li:first-of-type {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 14px;
     align-items: center;
 }
 
-nav li>svg {
+nav li>button:hover {
+    background-color: var(--color-primary);
+    transform: scale(1.03);
+}
+
+nav li>button:active {
+    transform: scale(0.95);
+}
+
+nav li svg {
     fill: var(--color-white);
     width: 1.8rem;
     margin-right: 4px;
 }
 
-nav>ul>li:first-of-type>svg {
+nav>ul>li:first-of-type svg {
     width: 3.5rem;
     margin-right: 0;
 }
@@ -210,7 +221,7 @@ nav>ul>li:not(:first-of-type) {
     margin-left: 14px;
 }
 
-nav li>h2 {
+nav li h2 {
     margin: 13px 10px;
     font-size: 1.4em;
 }
