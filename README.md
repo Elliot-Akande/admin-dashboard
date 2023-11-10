@@ -4,6 +4,8 @@ Welcome to the Admin Dashboard project, a showcase of my learning of the CSS Gri
 
 The centerpiece of this project is the dynamic main content section, demonstrating flexibility and adaptability. Leveraging the magic of CSS Grid, I've used the capabilities of the `auto-fit` and `minmax` functions to create an engaging experience that seamlessly adjusts to varying screen sizes.
 
+![image](https://github.com/Elliot-Akande/admin-dashboard/assets/92980481/a754f41c-cbf2-4231-87dc-3a72d33e142a)
+
 The project is intended to be viewed on a desktop/laptop screen as the mobile user experience has not been a priority. The reason for this is that responsive mobile design is a topic that I have not covered as of the creation of this project. Responsive mobile design will be learned very soon.
 
 Through the Admin Dashboard project, I've not only honed my technical skills but also gained valuable insights into crafting user-centric interfaces. This project stands as a testament to my commitment to staying at the forefront of modern web development techniques, and I'm excited to share it with the community.
